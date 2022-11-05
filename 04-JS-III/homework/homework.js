@@ -26,7 +26,7 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoarray[];
+  var nuevoarray = [];
   for (let i = 0; i < array.length; i++) {
      nuevoarray[i] = array[i] + 1;
   }
@@ -115,7 +115,7 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if (arguments<1) {
+  if (arguments.length < 1) {
     return 0;
   }
   var producto = 1;
